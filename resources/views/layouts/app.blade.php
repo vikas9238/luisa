@@ -38,7 +38,7 @@
         <header id="header" class="fixed-top d-flex align-items-center header-inner-pages">
             <div class="container d-flex align-items-center justify-content-between">
 
-                <h1 class="logo"><a href="index.html">Luisa Pharma</a></h1>
+                <h1 class="logo"><a href="/"><img src="{{ asset('favicon/apple-touch-icon.png') }}" alt="" srcset="">&nbsp; Luisa Pharma</a></h1>
                 <nav id="navbar" class="navbar">
                     <ul>
                         <li><a class="nav-link scrollto " href="{{ route('pages.home') }}">Home</a></li>
